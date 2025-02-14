@@ -5,12 +5,12 @@ This repository contains my homework assignments for my Python course. Each assi
 ## Repository Structure
 The repository is organized as follows:
 
-/python-homework 
-│-- lesson-1/ # homework.py 
-│-- lesson-2/ # homework.py  
-│-- lesson-1/ # homework.py
-│-- ... 
-│-- README.md # This file
+```/python-homework 
+```│-- lesson-1/ # homework.py 
+```│-- lesson-2/ # homework.py  
+```│-- lesson-1/ # homework.py
+```│-- ... 
+```│-- README.md # This file
 
 Each folder contains:
 - Python script(s) implementing the solution.
