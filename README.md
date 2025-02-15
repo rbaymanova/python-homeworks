@@ -8,7 +8,7 @@ The repository is organized as follows:
 /python-homework 
 │-- lesson-1/ homework/ # homework.py 
 │-- lesson-2/ homework/ # homework.py  
-│-- lesson-1/ homework/ # homework.py
+│-- lesson-3/ homework/ # homework.py
 │-- ... 
 │-- README.md # This file
 ```
