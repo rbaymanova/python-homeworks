@@ -6,9 +6,9 @@ This repository contains my homework assignments for my Python course. Each assi
 The repository is organized as follows:
 ```
 /python-homework 
-│-- lesson-1/ # homework.py 
-│-- lesson-2/ # homework.py  
-│-- lesson-1/ # homework.py
+│-- lesson-1/ homework/ # homework.py 
+│-- lesson-2/ homework/ # homework.py  
+│-- lesson-1/ homework/ # homework.py
 │-- ... 
 │-- README.md # This file
 ```
