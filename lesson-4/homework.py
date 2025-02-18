@@ -1,22 +1,22 @@
 from random import randint
 from collections import Counter
 
-#1
-#Return uncommon elements of lists. Order of elements does not matter.
+# 1
+# Return uncommon elements of lists. Order of elements does not matter.
 list1 = int(input("enter list1: "))
 list2 = int(input("enter list2: "))
 freq = Counter(list1) + Counter(list2)
 result = [num for num in list1 if freq[num] == 1] + [num for num in list2 if freq[num] == 1]
 print(result)
 
-#2
+# 2
 # Print the square of each number which is less than n on a separate line.
-# a = int(input())
-# for i in range(1, a):
-#     print(i*i)
+a = int(input())
+for i in range(1, a):
+    print(i*i)
 
-#3
-#put underscore every third letter with some conditions
+# 3
+# put underscore every third letter with some conditions
 txt = input("Enter a string:")
 skip = "aeiou"
 result = ""
@@ -30,56 +30,56 @@ for i in range(len(txt)):
         cnt=0
 print(result)
 
-#4
-#guessing game with randint
-# while True:
-#     n = 0
-#     rand_guess = randint(1, 100)
-#     while n < 10:
-#         user_guess = int(input("Guess a number between 1 and 100: "))
-#         if user_guess > rand_guess:
-#             print("Too high")
-#             n += 1
-#         elif user_guess < rand_guess:
-#             print("Too low")
-#             n += 1
-#         elif user_guess < 0 or user_guess > 100:
-#             print("Invalid input")
-#         else:
-#             print("Correct")
-#             break
-#         if n>10:
-#             print("Too many guesses")
-#             break
-#     user_input = input("Do you want to continue? (yes/no): ")
-#     if user_input.lower() not in ["y", "yes", "ok"]:
-#         break
+# 4
+# guessing game with randint
+while True:
+    n = 0
+    rand_guess = randint(1, 100)
+    while n < 10:
+        user_guess = int(input("Guess a number between 1 and 100: "))
+        if user_guess > rand_guess:
+            print("Too high")
+            n += 1
+        elif user_guess < rand_guess:
+            print("Too low")
+            n += 1
+        elif user_guess < 0 or user_guess > 100:
+            print("Invalid input")
+        else:
+            print("Correct")
+            break
+        if n>10:
+            print("Too many guesses")
+            break
+    user_input = input("Do you want to continue? (yes/no): ")
+    if user_input.lower() not in ["y", "yes", "ok"]:
+        break
 
-#5
-#checks password security(?)
-# password = input("Enter your password: ")
-# if len(password) > 8:
-#     c = False
-#     for char in password:
-#         if char.isupper():
-#             c = True
-#             break
-#     if c:
-#         print("Password is strong")
-#     else:
-#         print("Password must contain at least one uppercase letter.")
-# else:
-#     print("Your password is too short.")
+# 5
+# checks password security(?)
+password = input("Enter your password: ")
+if len(password) > 8:
+    c = False
+    for char in password:
+        if char.isupper():
+            c = True
+            break
+    if c:
+        print("Password is strong")
+    else:
+        print("Password must contain at least one uppercase letter.")
+else:
+    print("Your password is too short.")
 
-#6
-#prime numbers from 1 to 100
-# arr = []
-# for i in range(2, 100):
-#     for j in range(2, i//2 + 1):
-#         if i % j == 0:
-#             break
-#     else:
-#         arr.append(i)
-# print(arr)
+# 6
+# prime numbers from 1 to 100
+arr = []
+for i in range(2, 100):
+    for j in range(2, i//2 + 1):
+        if i % j == 0:
+            break
+    else:
+        arr.append(i)
+print(arr)
 
 
