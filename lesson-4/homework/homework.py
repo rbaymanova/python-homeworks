@@ -3,11 +3,11 @@ from collections import Counter
 
 # 1
 # Return uncommon elements of lists. Order of elements does not matter.
-list1 = int(input("enter list1: "))
-list2 = int(input("enter list2: "))
-freq = Counter(list1) + Counter(list2)
-result = [num for num in list1 if freq[num] == 1] + [num for num in list2 if freq[num] == 1]
-print(result)
+list1 = list(map(int, input("Enter list1: ").split()))
+list2 = list(map(int, input("Enter list2: ").split()))
+set1, set2 = set(list1), set(list2)
+result = list(set1.symmetric_difference(set2))
+print("Uncommon elements:", result)
 
 # 2
 # Print the square of each number which is less than n on a separate line.
