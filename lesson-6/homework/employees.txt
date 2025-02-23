@@ -1,0 +1,2 @@
+001, Ruxshona, Intern, 60k
+002, Gulirano, Engineer, 70k
