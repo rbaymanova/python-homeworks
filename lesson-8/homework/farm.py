@@ -30,7 +30,7 @@ class Chicken(Animal):
         super().__init__(name, age, "Chicken")
 
     def make_sound(self):
-        print(f"{self.name} says Cluck!")
+        print(f"{self.name} says Kukareku!")
 
     def lay_egg(self):
         print(f"{self.name} laid an egg!")
@@ -61,11 +61,10 @@ class Farm:
             print(f"- {animal.name} ({animal.species}), {animal.age} years old")
 
 
-# Example Usage
 farm = Farm()
-cow = Cow("Bessie", 5)
-chicken = Chicken("Clucky", 2)
-sheep = Sheep("Dolly", 3)
+cow = Cow("sigircha", 5)
+chicken = Chicken("tovuqcha", 2)
+sheep = Sheep("qoycha", 3)
 
 farm.add_animal(cow)
 farm.add_animal(chicken)
