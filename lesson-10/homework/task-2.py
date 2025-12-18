@@ -1,7 +1,7 @@
 import requests
 import random
 
-API_KEY = "cd01e1b86ba08d11ca076082c69d6242"
+API_KEY = "***"
 
 def get_genres():
     url = f"https://api.themoviedb.org/3/genre/movie/list?api_key={API_KEY}"
